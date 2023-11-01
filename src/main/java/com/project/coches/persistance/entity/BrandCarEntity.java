@@ -17,11 +17,10 @@ public class BrandCarEntity {
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
+    private Integer id;
     /**
      * Descripción de la marca
      */
-    private Integer id;
     @Column(name = "descripcion")
     private String description;
 }
